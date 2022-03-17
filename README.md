@@ -2,7 +2,7 @@
 
 ## About this project
 
-- Front-end CRUD project made with React & TypeScript.
+- Front-end CRUD project made with React & TypeScript & Eslint.
 
 I have used these packages :
 
