@@ -1,0 +1,64 @@
+.containerWildersCards {
+  margin: 0.6rem;
+
+  .wildersCards {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 650px;
+    width: 250px;
+
+    border: solid 1px rgb(172, 172, 172);
+    border-radius: 5px;
+
+    font-family: Roboto;
+
+    box-shadow: 1px 1px 1px 1px #707070;
+    .wildersCardsTop {
+      margin: 0.5rem;
+      display: flex;
+
+      img {
+        height: 180px;
+        margin: 0.8rem;
+      }
+
+      button {
+        height: 20px;
+        background-color: #f76c6c;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+
+    h1,
+    h2 {
+      display: flex;
+      justify-content: flex-start;
+      color: #f76c6c;
+
+      margin: 0.3rem 0.8rem;
+    }
+    p {
+      color: rgb(172, 172, 172);
+      margin: 0.8rem;
+    }
+    button {
+      height: 20px;
+      background-color: #f76c6c;
+      border-radius: 5px;
+      border: none;
+      color: white;
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}
